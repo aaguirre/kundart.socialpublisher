@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+  <layers>
+     <layer name="kundart.socialpublisher.layer"
+            interface="kundart.socialpublisher.interfaces.ISocialPost" />
+ </layers>

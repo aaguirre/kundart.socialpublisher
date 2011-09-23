@@ -1,0 +1,76 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-07-26 18:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: kundart.socialpublisher\n"
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/interfaces.py:56
+msgid "Bitly Account"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/interfaces.py:61
+msgid "Bitly Token"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/interfaces.py:51
+msgid "Facebook Access Token"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/interfaces.py:46
+msgid "Facebook Page ID"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/browser/templates/social_publisher.pt:15
+msgid "It was not possible to complete the publication"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/browser/panel.py:20
+msgid "Please enter the appropriate values for each variable"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/browser/templates/social_publisher.pt:13
+msgid "Published on Facebook"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/browser/templates/social_publisher.pt:14
+msgid "Published on Twitter"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/browser/panel.py:18
+#: ./kundart.socialpublisher/kundart/socialpublisher/profiles/default/controlpanel.xml
+msgid "Social Publisher Settings"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/browser/panel.py:19
+msgid "Social Publisher settings"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/interfaces.py:36
+msgid "Twitter Access Token Key"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/interfaces.py:41
+msgid "Twitter Access Token Secret"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/interfaces.py:26
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: ./kundart.socialpublisher/kundart/socialpublisher/interfaces.py:31
+msgid "Twitter Consumer Secret"
+msgstr ""
+

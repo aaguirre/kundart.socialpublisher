@@ -1,0 +1,52 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    xmlns:five="http://namespaces.zope.org/five"
+    >
+
+    <browser:resourceDirectory
+      name="kundart.socialpublisher.stylesheets"
+      directory="stylesheets"
+      />
+
+    <browser:resourceDirectory
+      name="kundart.socialpublisher.javascripts"
+      directory="javascripts"
+      />
+
+    <browser:resourceDirectory
+       name="kundart.socialpublisher.images"
+       directory="images"
+       />
+
+    <browser:page
+      for="*"
+      name="publish-to-social"
+      permission="cmf.ModifyPortalContent"
+      class=".publish.PublishToSocialView"
+      />
+
+    <browser:page
+      for="*"
+      name="social-publisher-view"
+      permission="cmf.ModifyPortalContent"
+      class=".publish.SocialPublisherWidgetView"
+      />
+
+
+    <browser:page
+        name="social-publisher-panel"
+        for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+        class=".panel.SocialPublisherControlPanel"
+        permission="cmf.ManagePortal"
+        />
+
+    <adapter
+        for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+        provides="kundart.socialpublisher.interfaces.ISocialPublisherSettings"
+        factory=".panel.social_publisher_settings"
+        />    
+
+</configure>

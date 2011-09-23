@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts">
+    <javascript id="++resource++kundart.socialpublisher.javascripts/publisher.js"
+        enabled="True"
+        cookable="True"
+        inline="False"
+        compression="safe"
+        cacheable="True"/>
+
+</object>

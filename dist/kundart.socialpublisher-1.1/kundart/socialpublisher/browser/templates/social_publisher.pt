@@ -1,0 +1,41 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      i18n:domain="kundart.socialpublisher">
+
+
+<div tal:define="canPublish view/canPublish;status view/getStatus" class="kundart-socialpublisher">
+    <form action="publish-to-social" method="post"
+        tal:attributes="class python:canPublish and 'enabled' or 'disabled';
+                        action  string:${context/absolute_url}/publish-to-social;">
+        <input type="hidden" value="Published on Facebook" id="published_on_facebook" i18n:attributes="value"/>
+        <input type="hidden" value="Published on Twitter" id="published_on_twitter" i18n:attributes="value"/>
+        <input type="hidden" value="It was not possible to complete the publication" id="error_message" i18n:attributes="value"/>
+
+        <span
+            tal:attributes="class   python:'twitter-published'">
+            <input type="submit" class="twitter-button" name="form.twitter_post" 
+                i18n:attributes="value"
+                tal:attributes="id  string:${context/id}_submit_twitter;
+                                class python: 'twitter-button' + (status['twitter_status'] and '-published' or '');
+                                disabled python: status['twitter_status'] and 'disabled' or '';
+                                value python: not status['twitter_status'] and 'Publish to Twitter' or 'Published on Twitter';
+                                    "/>
+        </span>
+
+       
+
+        <span>
+            <input type="submit" class="facebook-button" name="form.facebook_post"
+                i18n:attributes="value"
+                tal:attributes="id  string:${context/id}_submit_facebook;
+                                class python: 'facebook-button' + (status['facebook_status'] and '-published' or '');
+                                disabled python: status['facebook_status'] and 'disabled' or '';
+                                value python: not status['facebook_status'] and 'Publish to Facebook' or 'Published on Facebook';
+                                    "/>
+        </span>
+    </form>
+</div>
+</html>

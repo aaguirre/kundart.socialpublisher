@@ -1,0 +1,47 @@
+input.twitter-button, input.facebook-button, input.twitter-button-published, input.facebook-button-published, .request-loader{
+    padding: 8px 5px;
+    background-color:inherit;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+
+form input.twitter-button{
+    padding-left: 35px;
+    background-image: url(++resource++kundart.socialpublisher.images/twitter-original.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+form input.facebook-button{
+    padding-left: 35px;
+    background-image: url(++resource++kundart.socialpublisher.images/facebook-original.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+form input.twitter-button:hover,input.facebook-button:hover {
+    background-color:#F3F3F3;
+    border-color:#FFCC33;
+}
+
+form input.twitter-button-published{
+    padding-left: 35px;
+    background-image: url(++resource++kundart.socialpublisher.images/twitter-grey.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+form input.facebook-button-published{
+    padding-left: 35px;
+    background-image: url(++resource++kundart.socialpublisher.images/facebook-grey.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.request-loader {
+    padding-left: 35px;
+    background-image: url(++resource++kundart.socialpublisher.images/ajax-loader.gif);
+    background-repeat: no-repeat;
+    background-position: left center;
+}

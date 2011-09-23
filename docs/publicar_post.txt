@@ -1,0 +1,113 @@
+https://graph.facebook.com/oauth/access_token?client_id=224875740873427&client_secret=a4736c082772596e1e5f42d36a4cf64b&grant_type=client_credentials
+
+
+https://graph.facebook.com/224875740873427/insights?access_token=224875740873427|FZb38gFZwjTcDWpjNvOIg93g60I
+
+https://graph.facebook.com/224875740873427/accounts?access_token=224875740873427|FZb38gFZwjTcDWpjNvOIg93g60I
+
+https://graph.facebook.com/224875740873427/feed
+
+
+curl -F access_token='224875740873427|FZb38gFZwjTcDWpjNvOIg93g60I' -F message='Hello, Testing the api' https://graph.facebook.com/224875740873427/feed
+
+curl -F access_token='224875740873427|FZb38gFZwjTcDWpjNvOIg93g60I' -F message='Hello, Testing the api http://www.youtube.com/watch?v=Jd5jMs2Y70s' https://graph.facebook.com/224875740873427/feed
+
+
+
+
+178684532186868
+
+
+https://graph.facebook.com/oauth/access_token?client_id=178684532186868&client_secret=a4736c082772596e1e5f42d36a4cf64b&grant_type=client_credentials
+
+
+Page Login:
+https://www.facebook.com/dialog/oauth?client_id=224875740873427&redirect_uri=http://alvaro.aguirre.cl/&scope=manage_pages&response_type=token
+
+access_token=224875740873427%7C2.AQAsZHRcEQgYXtBY.3600.1308704400.1-524939984%7CTDWj6gsM_htO8JxIFM_f2iALJow
+
+https://graph.facebook.com/me/accounts?access_token=224875740873427%7C2.AQAsZHRcEQgYXtBY.3600.1308704400.1-524939984%7CTDWj6gsM_htO8JxIFM_f2iALJow&expires_in=3697
+
+
+224875740873427|2.AQAsZHRcEQgYXtBY.3600.1308704400.1-524939984|178684532186868|-f3hJGtQqtRkCGggkIW_OQylsvY
+
+curl -F access_token='224875740873427|2.AQClIBCn1nv0NA-M.3600.1308708000.1-524939984|dmUdbGkKXTbZl-gFci1cn__yKe0&expires_in=6863' -F message='Hello, Testing the api http://www.youtube.com/watch?v=Jd5jMs2Y70s' https://graph.facebook.com/178684532186868/feed
+
+
+224875740873427|2.AQClIBCn1nv0NA-M.3600.1308708000.1-524939984|dmUdbGkKXTbZl-gFci1cn__yKe0&expires_in=6863
+
+http://developers.facebook.com/docs/authentication/
+
+Otra Forma:
+
+http://sudocode.net/article/318/update-facebook-news-feed-using-the-graph-api-in-php/
+
+Alvaro Aguirre ID: 524939984
+
+Ultima:
+Page ID: 178684532186868
+
+APP_ID: 224875740873427
+
+APP_KEY: aa29895c1a162b1c0d1e058935c4c9de
+
+APP_SECRET: a4736c082772596e1e5f42d36a4cf64b
+
+REDIRECT_URL: http://alvaro.aguirre.cl/
+
+1.-  https://www.facebook.com/dialog/oauth?client_id=224875740873427&redirect_uri=http://alvaro.aguirre.cl/&scope=email,read_stream,offline_access,manage_pages
+
+
+
+http://alvaro.aguirre.cl/?code=ccmbqJp38X7B2oBtvezALFIt9T_I8KfaponxdknRzw0.eyJpdiI6IlE0VXFOemRKWmtxNUJXMm5CaW5kb2cifQ.KEhwKRXKOuTJNixilScIIO5gGjCeoMfGp4Mw6sHRsbnGp7Mxb3_gKMRrmj1AcWta30ZNaVHkKdvBBLsZseaKwL21cI1c7tNgjAopsEFqPWS67zDcuhJoHuiZ0-lRppCb
+
+2.- https://graph.facebook.com/oauth/access_token?client_id=224875740873427&redirect_uri=http://alvaro.aguirre.cl/&client_secret=a4736c082772596e1e5f42d36a4cf64b&code=so_owiHKTVhRNbRi_Z2uBqmEqzvPoo_ZolwAEjGsxPo.eyJpdiI6InNwcGxjVGQyLWdTR3NJQVpfUUItRUEifQ.cYXzkRVoPH3c-O2UQGRh6BU5o_hVU9tl74vnLjGBj7lbNi9ikfIuYczHgLJpDqDOCdXgjw7sVO8fzHK9Tv41ExRJUtRu-GH8qHqi3xDFHT_WkmH3cYWL2W6sAOw4OUCM
+
+access_token=224875740873427|655ac2b5245efa06fa8e9371.1-524939984|6AjGo3J5OKsvcHYSRTawUNs7i2k
+
+
+3.- https://www.facebook.com/dialog/oauth?client_id=224875740873427&redirect_uri=http://alvaro.aguirre.cl/&scope=email,read_stream&response_type=token
+
+
+
+4.- https://graph.facebook.com/oauth/access_token?client_id=224875740873427&client_secret=a4736c082772596e1e5f42d36a4cf64b&grant_type=client_credentials
+
+access_token=224875740873427|FZb38gFZwjTcDWpjNvOIg93g60I
+
+5.- https://www.facebook.com/dialog/oauth?client_id=224875740873427&redirect_uri=http://alvaro.aguirre.cl/&scope=manage_pages&response_type=token
+
+
+6.- https://graph.facebook.com/me/accounts?access_token=224875740873427|655ac2b5245efa06fa8e9371.1-524939984|6AjGo3J5OKsvcHYSRTawUNs7i2k
+
+Page Token = 224875740873427|655ac2b5245efa06fa8e9371.1-524939984|178684532186868|MQedwAQaANkV6wUbguQW5DizUoA
+
+7.- http://www.facebook.com/login.php?api_key=aa29895c1a162b1c0d1e058935c4c9de&connect_display=popup&v=1.0&next=http://alvaro.aguirre.cl/&cancel_url=http://www.facebook.com/connect/login_failure.html&fbconnect=true&return_session=true&session_key_only=true&req_perms=read_stream,publish_stream,offline_access
+
+
+curl -F 'access_token=224875740873427|655ac2b5245efa06fa8e9371.1-524939984|178684532186868|MQedwAQaANkV6wUbguQW5DizUoA' \
+-F 'message=TESTTING' \
+-F 'link=http://www.emol.com' \
+-F 'picture={IMAGE}' \
+-F 'name={IMAGE_NAME}' \
+-F 'caption={IMAGE_CAPTION}' \
+-F 'description={DESCRIPTION}' \
+-F 'actions={JSON_ENCODED_STRING_FOR_EXTRA_HYPERLINKS}' \
+https://graph.facebook.com/{PAGE_ID}/feed
+
+:wq  042 452905
+
+:wq
+
+curl -F 'access_token=224875740873427|655ac2b5245efa06fa8e9371.1-524939984|178684532186868|MQedwAQaANkV6wUbguQW5DizUoA' -F 'message=TESTTING' https://graph.facebook.com/178684532186868/feed
+
+
+Twitter Consumer Key : aBtzLvkEBFE0HrC4aKx7g
+Twitter Consumer Secret : RZJGVPDso6HQFbNoeS9coYElpao7VzRD5SKGjtp398
+Twitter Access Token Key : 329059153-3PVaV6F6njvRKS1jU24pNgeqYwIHs7m3nmwR1mtW
+Twitter Access Token Secret : NXpEH9KTGlRxr0QoELnDU0LR0MFN6lEAjiKFCI
+
+Facebook Page ID: 178684532186868
+Facebook Access Token: 224875740873427|655ac2b5245efa06fa8e9371.1-524939984|178684532186868|MQedwAQaANkV6wUbguQW5DizUoA
+Bitly Account : shikku
+
+Bitly Token: R_ef1c1f856fa6901eda20aa77be05774c

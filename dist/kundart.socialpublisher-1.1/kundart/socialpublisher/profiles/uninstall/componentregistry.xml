@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<componentregistry>
+	<utilities>
+        <utility
+            name="kundart.socialpublisher.settings"
+        	interface="kundart.socialpublisher.interfaces.ISocialPublisherSettings"
+	        factory="kundart.socialpublisher.settings.SocialPublisherSettings"
+            remove="True"    />
+	</utilities>
+</componentregistry>

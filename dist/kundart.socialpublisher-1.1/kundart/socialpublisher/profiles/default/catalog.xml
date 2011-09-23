@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_catalog" meta_type="Plone Catalog Tool">
+    <index name="twitter_post" meta_type="FieldIndex">
+        <indexed_attr value="twitter_post"/>
+    </index>
+    <index name="facebook_post" meta_type="FieldIndex">
+        <indexed_attr value="facebook_post"/>
+    </index>
+    <column value="twitter_post"/>
+    <column value="facebook_post"/>
+</object>

@@ -1,0 +1,10 @@
+Changelog
+=========
+
+1.1 (2011-08-18) aaguirre
+---------------
+Added MANIFEST file
+
+1 (2011-07-01) aaguirre
+--------------
+- Initial release

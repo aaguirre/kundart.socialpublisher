@@ -1,0 +1,2 @@
+setuptools
+python_twitter
